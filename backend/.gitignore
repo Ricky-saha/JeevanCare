@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+
+# logs
+logs
+*.log
+
+# runtime
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# system files
+.DS_Store
+.vscode/
+.idea/
+
+# database
+*.sqlite
+*.db
+
+# coverage
+coverage/
