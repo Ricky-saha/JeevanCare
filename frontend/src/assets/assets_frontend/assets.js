@@ -9,6 +9,9 @@ export const assets = {
   stripe_logo: '/stripe_logo.png',
   razorpay_logo: '/razorpay_logo.png',
   cover_img: '/cover_img.jpg',
+  arrow_icon:'/arrow_icon.svg',
+  info_icon: '/info_icon.svg',
+  
 };
 
 export const specialityData = [
