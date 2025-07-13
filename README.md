@@ -75,7 +75,7 @@ JeevanCare is a full-fledged web application designed to streamline the process 
 
 ### Database:
 - MongoDB 
-- 
+
 ---
 
 ## ⚙️ Installation & Setup
