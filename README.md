@@ -82,30 +82,50 @@ JeevanCare is a full-fledged web application designed to streamline the process 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/jeevancare.git
+git clone https://github.com/Ricky-saha/jeevancare.git
 cd jeevancare
 
 # Install backend dependencies
-cd server
+cd backend
 npm install
 
 # Install frontend dependencies
-cd ../client
+cd ..
+cd backend
 npm install
 
 # Setup environment variables
-# Create a `.env` file in /server and /client with necessary credentials (Razorpay keys, DB URI, Zeocloud config)
+# Create a `.env` file in /backend and /frontend with necessary credentials
+sample env:-
+for frontend:-
+VITE_API_BASE_URL=
+VITE_ZEGO_APP_ID=
+VITE_ZEGO_SERVER_SECRET=
+VITE_VIDEO_CALL_ENABLED=true
+VITE_CALL_RECORDING_ENABLED=false
+VITE_SCREEN_SHARE_ENABLED=true
+VITE_TEXT_CHAT_ENABLED=true
+
+for backend:-
+PORT=
+URL=
+CLOUDINARY_SECRET_KEY=
+CLOUDINARY_NAME=
+CLOUDINARY_API_KEY=
+JWT_SECRET=
+EMAIL_HOST = smtp.gmail.com
+EMAIL_USERNAME= 
+EMAIL_PASSWORD=
+RAZORPAY_KEY= 
+RAZORPAY_SECRET= 
+
+
 
 # Run the app
-# From /server
+# From /backend
+node index.js
+
+# From /frontend (in another terminal)
 npm run dev
 
-# From /client (in another terminal)
-npm start
-
-- Prisma ORM *(if used)*
-
----
-
-## 📂 Folder Structure
 
