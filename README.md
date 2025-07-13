@@ -58,6 +58,8 @@ JeevanCare is a full-fledged web application designed to streamline the process 
 
 <img width="1918" height="856" alt="mis2" src="https://github.com/user-attachments/assets/4ccfdac5-6fc7-487b-915a-8ecbe757d58d" />
 <img width="1918" height="867" alt="mis3" src="https://github.com/user-attachments/assets/4fd5b84f-c263-4918-811a-c5ccb45143d3" />
+<img width="1655" height="802" alt="mail" src="https://github.com/user-attachments/assets/a50ea894-5cf7-431d-8cff-c6a56a0fdc3f" />
+
 
 ## 🛠️ Tech Stack
 
